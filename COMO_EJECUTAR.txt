@@ -1,0 +1,58 @@
+============================================================
+  PYTHON  (carpeta: selenium_python)
+============================================================
+
+1. Abrir terminal en la carpeta selenium_python
+2. Activar entorno virtual
+     .venv\Scripts\activate
+   Asegurarse de tener el venv si no ejecutar lo siguiente:
+   python -m venv venv
+   pip install -r requirements.txt
+
+   luego ejecutar el comando
+  .venv\Scripts\activate 
+
+Ejecutar todo:
+  python EjecutarTodo.py
+
+Ejecutar solo login:
+  python EjecutarLogin.py
+
+Ejecutar solo carrito:
+  python EjecutarCarrito.py
+
+
+============================================================
+  JAVA  (carpeta: selenium_java)
+============================================================
+
+REQUISITOS (solo la primera vez):
+  Verificar Maven instalado:
+    mvn -v
+  Descargar dependencias:
+    mvn dependency:resolve
+
+------------------------------------------------------------
+  COMPILAR
+  Siempre ejecutar cuando se realiza un cambio
+------------------------------------------------------------
+
+  mvn compile
+
+------------------------------------------------------------
+  EJECUTAR
+------------------------------------------------------------
+Ejecutar archivo test proporcionado:
+  mvn exec:java "-Dexec.mainClass=LoginTest"
+
+Ejecutar todo:
+  mvn exec:java "-Dexec.mainClass=EjecutarTodo"
+
+Ejecutar solo login:
+  mvn exec:java "-Dexec.mainClass=EjecutarLogin"
+
+Ejecutar solo carrito:
+  mvn exec:java "-Dexec.mainClass=EjecutarCarrito"
+
+NOTA: Las comillas son necesarias en PowerShell.
+      En CMD (símbolo del sistema) funcionan sin comillas.
