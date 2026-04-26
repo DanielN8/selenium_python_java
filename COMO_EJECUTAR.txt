@@ -55,4 +55,4 @@ Ejecutar solo carrito:
   mvn exec:java "-Dexec.mainClass=EjecutarCarrito"
 
 NOTA: Las comillas son necesarias en PowerShell.
-      En CMD (símbolo del sistema) funcionan sin comillas.
+      En CMD funcionan sin comillas.
