@@ -28,7 +28,7 @@ jobs:
       
       - name: Guardar el Reporte HTML como evidencia
         if: always()  # Se ejecuta aunque fallen las pruebas
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: reporte-selenium
           path: reporte_final.html
