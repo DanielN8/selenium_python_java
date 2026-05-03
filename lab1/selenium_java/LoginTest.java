@@ -11,7 +11,7 @@ public class LoginTest {
 
     public static void main(String[] args) {
         // si se quiere usar el chromedriver.exe descomentar y comentar lo de abajo
-        // System.setProperty("webdriver.chrome.driver", "../drivers/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver", "../../drivers/chromedriver.exe");
         // WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver", "../drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
